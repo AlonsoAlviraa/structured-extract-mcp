@@ -1,0 +1,24 @@
+From: accounts@northwind-supply.example
+To: ap@harbor.example
+Subject: Invoice INV-2026-1042
+
+Hello,
+
+Attached is the March invoice for the paper and toner order.
+
+Vendor: Northwind Supply Co.
+Invoice number: INV-2026-1042
+Issued on: 2026-03-12
+Currency: USD
+Payment terms: Net 30
+
+Line items:
+- 10 x A4 paper reams @ 4.50 = 45.00
+- 2 x Printer toner, black @ 62.00 = 124.00
+- 1 x Sales tax @ 13.52 = 13.52
+
+Total: 182.52
+
+Please pay by the due date.
+Thanks,
+Northwind Supply billing

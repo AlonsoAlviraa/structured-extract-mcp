@@ -1,0 +1,19 @@
+From: talent@lumen-analytics.example
+To: candidates@lists.example
+Subject: Senior Backend Engineer — Lumen Analytics
+
+We are hiring a backend engineer to own the event ingestion pipeline
+and the APIs in front of it. The team is eight people.
+
+Title: Senior Backend Engineer
+Company: Lumen Analytics
+Location: Remote (EU time zones)
+Employment type: full-time
+Salary min: 85000
+Salary max: 110000
+Salary currency: EUR
+
+Requirements:
+- 4+ years of Python in production services
+- PostgreSQL, including schema design and query plans
+- A message queue or an append-only event log

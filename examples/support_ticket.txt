@@ -1,0 +1,17 @@
+From: maria.santos@client.example
+To: support@harbor.example
+Subject: Charged twice for INV-2026-1042
+
+Hello support,
+
+I need help with a duplicate card charge. Details are below.
+
+Ticket: SUP-4419
+Priority: high
+Category: billing
+
+Summary:
+I was charged twice for the March invoice INV-2026-1042. The duplicate amount is 182.52 USD and both charges posted on 2026-03-18.
+
+Requested action:
+Refund the duplicate charge of 182.52 USD and email me when the refund is issued.

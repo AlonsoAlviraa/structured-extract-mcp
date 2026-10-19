@@ -4,10 +4,10 @@ from __future__ import annotations
 
 import pytest
 from pydantic import ValidationError
-from tests.conftest import EXPECTED_INVOICE, EXPECTED_JOB, EXPECTED_TICKET
 
 from structured_extract import SchemaNotFoundError, get_schema
 from structured_extract.schemas import Invoice, JobPosting, strict_json_schema
+from tests.conftest import EXPECTED_INVOICE, EXPECTED_JOB, EXPECTED_TICKET
 
 
 def test_examples_match_models() -> None:

@@ -6,9 +6,9 @@ import json
 from io import StringIO
 
 import pytest
-from tests.conftest import EXAMPLES, EXPECTED_INVOICE, EXPECTED_JOB, EXPECTED_TICKET
 
 from structured_extract.cli import main
+from tests.conftest import EXAMPLES, EXPECTED_INVOICE, EXPECTED_JOB, EXPECTED_TICKET
 
 
 def test_cli_prints_validated_json(capsys: pytest.CaptureFixture[str]) -> None:

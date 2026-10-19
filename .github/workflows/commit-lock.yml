@@ -1,0 +1,31 @@
+name: Commit lockfile
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  lock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.13.1"
+      - name: Write uv.lock when it is missing
+        run: |
+          if [ -f uv.lock ]; then
+            echo "uv.lock already present"
+            exit 0
+          fi
+          uv lock
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add uv.lock
+          git rm -f .github/workflows/commit-lock.yml
+          git commit -m "Add uv.lock"
+          git push
